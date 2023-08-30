@@ -20,7 +20,9 @@
     "icons"
   ],
   "scripts": {
-    "start": "node bin.js"
+    "start": "node bin.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "cross-spawn": "^5.0.1",
@@ -28,6 +30,8 @@
     "ip": "^1.1.4",
     "minimist": "^1.2.3",
     "react-devtools-core": "4.8.2",
-    "update-notifier": "^2.1.0"
-  }
+    "update-notifier": "^2.1.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
