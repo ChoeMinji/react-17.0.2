@@ -27,7 +27,7 @@
     "electron": "^9.1.0",
     "ip": "^1.1.4",
     "minimist": "^1.2.3",
-    "react-devtools-core": "4.8.2",
+    "react-devtools-core": "4.28.4",
     "update-notifier": "^2.1.0"
   }
 }
